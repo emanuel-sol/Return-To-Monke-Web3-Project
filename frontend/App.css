@@ -1,0 +1,58 @@
+body {
+  background-color: rgb(44, 97, 64) ;
+}
+
+.mainContainer {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 64px;
+}
+
+.dataContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 600px;
+}
+
+.header {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  color: rgb(196, 255, 162);
+}
+
+.bio {
+  text-align: center;
+  color: rgb(172, 184, 145);
+  margin-top: 16px;
+}
+
+.waveButton {
+  cursor: pointer;
+  margin-top: 16px;
+  padding: 8px;
+  border: 0;
+  border-radius: 5px;
+  color: rgb(255, 247, 179);
+  background-color: rgb(209, 123, 73);
+  font-weight: bold;
+}
+
+.message-text-input {
+  padding: 10px;
+  margin:10px 0;
+  border:0;
+  font-family:inherit;
+  font-size: inherit;
+  text-align: center;
+}
+
+.displayWoops{
+  border: 3px solid black;
+}
+
+.woopSubsection{
+  
+}
