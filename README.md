@@ -2,19 +2,13 @@
 
 I created Return to Monke to demonstrate my understanding of creating and deploying a Web3 project on Ethereum's Rinkeby Testnet.
 
-# Description
-
-In this project I built and deployed a smart contract initialized with 0.001 test ether. Users can primarily interact with the smart contract via the `eatBanana` function which allows them to broadcast a message on the blockchain that is then displayed on the frontend for all to see. The function also gives the user a 50/50 chance of being rewarded with 0.0001 test ether that's sent to their wallet address automatically. To prevent spamming, the function has a cooldown of 2.5 minutes.
-
-[Link to contract on Etherscan](https://rinkeby.etherscan.io/address/0xaAb7EF97810663aaAf99D64A59064517347c1816)
-
-[Link to App](https://waveportal-baseline-student.emanuelsolis.repl.co/)
-
-## Interacting With the Application
+# Interacting With the Application
 
 To interact with the app simply go to this [link](https://waveportal-baseline-student.emanuelsolis.repl.co/), connect your MetaMask wallet (make sure it's on the Rinkeby network), and ensure that it has some test ETH.
 
 Type a message in the message field and click the "Eat Banana" button to broadcast your message to the blockchain!
+
+To view the contract on Etherscan go [here](https://rinkeby.etherscan.io/address/0xaAb7EF97810663aaAf99D64A59064517347c1816)
 
 ## Tools Used
 
